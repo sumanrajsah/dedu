@@ -1,0 +1,264 @@
+.sidebar-body{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #7469B6;
+    height: 400px;
+    width: 200px;
+    top:20%;
+    left:2%;
+    border-radius: 10px;
+}
+.menu-button-bar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    top:10%;
+    gap:30px;
+    p{
+        font-size: 24px;
+        color: #7469B6;
+        width: 90%;
+        cursor: pointer;
+    }
+    p:hover{
+        border: 5px solid #7469B6;
+        border-radius: 50px;
+        font-weight: 900;
+    }
+}
+.create{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom:2%;
+    background: #7469B6;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    color: #FFE6E6;
+    font-weight: 900;
+  }
+  .create:hover{
+    transform: scale(1.05);
+    background: transparent;
+    border: 5px solid #7469B6;
+    color: #7469B6;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .posts-body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    top:5%;
+    overflow: scroll;
+
+  }
+  .postbox-body{
+    position: relative;
+    border: 2px solid #7469B6;
+    padding: 5px;
+    border-radius: 10px;
+    width: 400px;
+  }
+  .para{
+    position: relative;
+    display: flex;
+    width: 90%;
+  }
+  .post-content{
+    width: 80%;
+    padding: 2px;
+}
+.action-bar{
+    position: relative;
+    background: #FFE6E6;
+    height: 30px;
+    width: 100%;
+    bottom:3%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.post-body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background: green; */
+}
+.view-image{
+    position: relative;
+    display: flex;
+    justify-content: right;
+width: 90%;
+    height: auto;
+    
+
+}
+
+.img{
+    position: relative;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #4d4828;
+}
+.para{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    /* background: red; */
+    width: 80%;
+    h4{
+        color: #d2bd00ab;
+    }
+}
+.post-profile{
+    position: relative;
+    display: flex;
+    width: 90%;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.p-image{
+    border-radius: 100%;
+
+}
+.action-bar-svg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+
+    svg{
+        height: 28px;
+        width: 28px;
+        cursor: pointer;
+    }
+}
+
+.repost-svg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    color: #7469B6;
+svg{
+    fill: #7469B6;
+}
+
+}
+.repost-svg:hover{
+
+color: #7469B6;
+    svg{
+        transform: rotate(360deg);
+        transition: transform 1s ease-in-out;
+        fill: #7469B6;
+    }
+}
+.reposted{
+    color: #7469B6;
+    svg{
+        fill: #7469B6;
+    }
+}
+.comment-svg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #4d4828;
+
+    svg{
+        fill: #4d4828;
+    }
+
+}
+.comment-svg:hover{
+    color: #7469B6;
+
+    svg{
+        fill: #7469B6;
+    }
+}
+.like-svg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+gap: 5px;
+color: #4d4828;
+    svg{
+        fill: #4d4828;
+        overflow: hidden;
+    }
+
+}
+.like-svg:hover{
+    svg{
+    fill: red;
+    }
+    color: red;
+    transform: scale(1.05);
+}
+.liked-svg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+gap: 5px;
+color: red;
+    svg{
+        fill: red;
+        overflow: hidden;
+    }
+
+}
+.liked-svg:hover{
+transform: scale(1.05);
+}
+.share-svg{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    svg{
+        fill: #4d4828;
+    }
+svg:hover{
+   fill: green;
+}
+}
